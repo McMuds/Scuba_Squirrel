@@ -1,7 +1,7 @@
 import {useState} from 'react';
 import { View, Text, StyleSheet, Image, TouchableOpacity } from 'react-native';
 
-export default function AirTank({tankAir, fillSuit}) {
+export default function AirTank({tankAir, fillSuit}: any) {
 
   return (
     <View style={styles.container}>

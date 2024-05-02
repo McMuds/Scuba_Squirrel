@@ -1,7 +1,7 @@
 import {useState} from 'react';
 import { View, Text, StyleSheet, Image, TouchableOpacity } from 'react-native';
 
-export default function Suit({suitAir, dumpSuit}) {
+export default function Suit({suitAir, dumpSuit}: any) {
 
   return (
     <View style={styles.container}>
